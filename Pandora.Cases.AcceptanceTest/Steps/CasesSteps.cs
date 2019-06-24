@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Pandora.Cases.AcceptanceTest.Helpers;
 using Pandora.Cases.AcceptanceTest.Models;
 using RestSharp;
@@ -24,6 +23,7 @@ namespace Pandora.Cases.AcceptanceTest.Steps
         [When(@"I get the case")]
         public void WhenIGetTheCase()
         {
+            RestCasesHelper.SetAuthenticationToken();
             _response = RestCasesHelper.CasesGet(_caseId, _guid);
         }
 

@@ -57,6 +57,7 @@
       <HintPath>packages\RestSharp.106.6.9\lib\net452\RestSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Threading.Tasks.Extensions.4.4.0\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
@@ -85,6 +86,7 @@
       <DependentUpon>Cases.feature</DependentUpon>
     </Compile>
     <Compile Include="Helpers\RestCasesHelper.cs" />
+    <Compile Include="Helpers\RestClientHelper.cs" />
     <Compile Include="Models\Case.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Steps\CasesSteps.cs" />
