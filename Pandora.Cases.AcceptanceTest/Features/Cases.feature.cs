@@ -98,7 +98,7 @@ namespace Pandora.Cases.AcceptanceTest.Features
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
 #line 6
- testRunner.Given("I have a case", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I have a case for user \'tester\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 7
  testRunner.When("I get the case", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 8

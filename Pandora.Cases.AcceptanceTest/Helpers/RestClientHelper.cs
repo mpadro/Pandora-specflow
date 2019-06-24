@@ -8,13 +8,7 @@ namespace Pandora.Cases.AcceptanceTest.Helpers
         private static RestClient _restClient;
         public static RestClient RestClient
         {
-            get
-            {
-                if (_restClient == null)
-                    _restClient = new RestClient(ConfigurationManager.AppSettings["baseUrl"]);
-
-                return _restClient;
-            }
+            get => _restClient ?? (_restClient = new RestClient(ConfigurationManager.AppSettings["baseUrl"]));
             internal set => _restClient = value;
         }
     }
