@@ -3,3 +3,6 @@
 ################################################################################
 
 /Pandora.Cases.AcceptanceTest/.vs/Pandora.Cases.AcceptanceTests/v15
+/Pandora.Cases.AcceptanceTest/bin/Debug
+/Pandora.Cases.AcceptanceTest/obj/Debug
+/Pandora.Cases.AcceptanceTest/packages
